@@ -2,12 +2,13 @@
  * Created by Michael Spencer on 10/8/2015.
  */
 
+/* exported primeFactors */
 /**
  * Finds the factors for a given number
  * @param num the number  to look at
  * returns the larges prime factor
  */
-var projectEulerThree = function(num)
+var primeFactors = function(num)
 {
   var factors = [];
   var divider = 2;
