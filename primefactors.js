@@ -8,16 +8,13 @@
  * @param num the number  to look at
  * returns the larges prime factor
  */
-var primeFactors = function(num)
-{
+var primeFactors = function (num) {
   var factors = [];
   var divider = 2;
-  while (num >1)
-  {
-    while (num % divider === 0)
-    {
+  while (num > 1) {
+    while (num % divider === 0) {
       factors.push(divider);
-      num/=divider;
+      num /= divider;
     }
     divider++;
   }
