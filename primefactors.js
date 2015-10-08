@@ -1,5 +1,5 @@
 /**
- * Created by mike on 10/8/2015.
+ * Created by Michael Spencer on 10/8/2015.
  */
 
 /**
@@ -20,8 +20,5 @@ var projectEulerThree = function(num)
     }
     divider++;
   }
- // console.log(factors);
   return (factors[factors.length - 1]);
 };
-console.log (projectEulerThree(10));
-console.log (projectEulerThree(239));
